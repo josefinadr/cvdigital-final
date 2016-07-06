@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,700);
+
+*{
+	box-sizing: border-box;
+	/* descuenta del width y height, lo sumado en padding y border */
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 10px;
+	padding: 5px;
+	background: url(../images/back1.png.jpg);
+	border: solid 4px;
+}
+
+.cleaner{
+	clear: both;
+}
+
+.container{
+	max-width: 1200px;
+	margin: auto;
+	position: relative;
+}
+.first{
+	height: 230px;
+}
+.first h2{
+	font-size: 30px;
+}
+.fifth{
+	height: 300px;
+	margin-top: 50px;
+	margin-bottom: 35px;
+
+}
+.fifth textarea {
+	width: 80%;
+	height: 150px;
+	margin-top: 5px;
+	border: solid 1px;
+}
+ 
+.profilepicture figcaption{
+	display: none;
+}
+
+.profilepicture{
+	position: absolute;
+	right: 15px;
+	top: 0px;
+	max-width: 20%;
+	max-height: 100%;
+}
+
+.skills{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.skills i{
+	font-size:100px !important;
+	color: #E64C87;
+}
+.main{
+	height: 70px;
+	position: relative;
+	margin-bottom: 25px;
+}
+.main h2{
+	position: absolute;
+	top: 7px;
+	left: 37px;
+	font-size: 27px;
+}
+
+.main i{
+	position: absolute;
+	top: 28px;
+	font-size: 27px;
+	color: #000000;
+}
+.fourth{
+	height: 580px;
+}
+.education{
+	height: 25%;
+	margin-left: 20px;
+
+}
+.edu{
+	position: relative;
+	height: 15px;
+}
+.edu h4{
+	position: absolute;
+	left: 50px;
+	bottom: -10px;
+}
+.edu i{
+	position: absolute;
+	bottom: 15px;
+	color: #E64C87;
+}
+
+.submit-button{
+	background-color: #E64C87;
+	border: none;
+	color: #000000;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	width: 80%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+@media (max-width:900px){
+.skills{
+	width: 50%;
+}
+}
+@media (max-width:750px){
+.skills{
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+.first{
+	text-align: center;
+	height: 400px;
+}
+.profilepicture{
+	bottom: 0px;
+	max-width: 100%;
+	position: relative;
+}
+
+.profilepicture img{
+	bottom: 0px;
+}
+}
